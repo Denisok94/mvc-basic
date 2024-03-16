@@ -1,0 +1,182 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5c5825677b048e6969b8ac4d2fb5b7f4",
+    "packages": [
+        {
+            "name": "denisok94/helper",
+            "version": "0.8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Denisok94/helper.git",
+                "reference": "457846c6e5de853698ebc1eb21ae3cd04381b64e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Denisok94/helper/zipball/457846c6e5de853698ebc1eb21ae3cd04381b64e",
+                "reference": "457846c6e5de853698ebc1eb21ae3cd04381b64e",
+                "shasum": ""
+            },
+            "require": {
+                "denisok94/helper-composer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "denisok94\\helper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Denisok94",
+                    "email": "denisok94@inbox.ru"
+                }
+            ],
+            "description": "A class with a set of functions to facilitate programming",
+            "keywords": [
+                "php console",
+                "php helper class",
+                "yii2 Meta Tag",
+                "yii2-extension"
+            ],
+            "support": {
+                "issues": "https://github.com/Denisok94/helper/issues",
+                "source": "https://github.com/Denisok94/"
+            },
+            "time": "2022-06-23T17:12:07+00:00"
+        },
+        {
+            "name": "denisok94/helper-composer",
+            "version": "0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Denisok94/helper-composer.git",
+                "reference": "9373acc85c1f78b2b10431c18c8b0d3e7ec6ef93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Denisok94/helper-composer/zipball/9373acc85c1f78b2b10431c18c8b0d3e7ec6ef93",
+                "reference": "9373acc85c1f78b2b10431c18c8b0d3e7ec6ef93",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 | ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 | ^2.0@dev",
+                "phpunit/phpunit": "<7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "denisok94\\helper\\composer\\Plugin",
+                "branch-alias": {
+                    "dev-master": "0.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "denisok94\\helper\\composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/Denisok94/helper-composer/issues",
+                "source": "https://github.com/Denisok94/helper-composer/tree/0.0.4"
+            },
+            "time": "2022-06-12T16:45:35+00:00"
+        },
+        {
+            "name": "lite-mvc/core",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "D:\\git\\my-mvc\\core",
+                "reference": "7358ff42c65fccb36528dcc0d0b5e3f0e9c2c1f4"
+            },
+            "require": {
+                "denisok94/helper": "*",
+                "wa72/url": "^0.7.1"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "LiteMvc\\Core\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "denisok94"
+                }
+            ],
+            "time": "2022-07-10T13:04:39+00:00"
+        },
+        {
+            "name": "wa72/url",
+            "version": "v0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wasinger/url.git",
+                "reference": "9ae182a0e3408ca8956186eafbbc497144d27d44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wasinger/url/zipball/9ae182a0e3408ca8956186eafbbc497144d27d44",
+                "reference": "9ae182a0e3408ca8956186eafbbc497144d27d44",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4|^5|^6|^7",
+                "psr/http-message": "^1.0"
+            },
+            "suggest": {
+                "psr/http-message": "For using the Psr7Uri class implementing Psr\\Http\\Message\\UriInterface"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wa72\\Url\\": "src/Wa72/Url"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Singer",
+                    "email": "singer@webagentur72.de",
+                    "homepage": "http://www.webagentur72.de"
+                }
+            ],
+            "description": "Class for handling and manipulating URLs",
+            "homepage": "http://github.com/wasinger/url",
+            "support": {
+                "issues": "https://github.com/wasinger/url/issues",
+                "source": "https://github.com/wasinger/url/tree/master"
+            },
+            "time": "2018-07-25T15:54:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

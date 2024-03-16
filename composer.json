@@ -1,0 +1,26 @@
+{
+    "name": "lite-mvc/basic",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Denisok94",
+        "email": "denisok94@inbox.ru"
+    }],
+    "minimum-stability": "stable",
+    "repositories": [
+        {"type": "vcs", "url": "D:\\git\\my-mvc\\core"}
+    ],
+    "require": {
+        "lite-mvc/core": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "denisok94/helper-composer": true
+        }
+    }
+}
