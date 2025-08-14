@@ -13,9 +13,10 @@
     }],
     "minimum-stability": "stable",
     "repositories": [
-        {"type": "vcs", "url": "D:\\git\\my-mvc\\core"}
+        {"type": "git", "url": "https://github.com/Denisok94/mvc-core.git"}
     ],
     "require": {
+        "php": "^8.3",
         "lite-mvc/core": "*"
     },
     "config": {

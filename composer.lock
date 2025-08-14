@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c5825677b048e6969b8ac4d2fb5b7f4",
+    "content-hash": "744df377e89be845161dd31229b034ae",
     "packages": [
         {
             "name": "denisok94/helper",
-            "version": "0.8.3",
+            "version": "0.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Denisok94/helper.git",
-                "reference": "457846c6e5de853698ebc1eb21ae3cd04381b64e"
+                "reference": "f04cd359bb7e9137765adc4eb2e33f136bb1d894"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Denisok94/helper/zipball/457846c6e5de853698ebc1eb21ae3cd04381b64e",
-                "reference": "457846c6e5de853698ebc1eb21ae3cd04381b64e",
+                "url": "https://api.github.com/repos/Denisok94/helper/zipball/f04cd359bb7e9137765adc4eb2e33f136bb1d894",
+                "reference": "f04cd359bb7e9137765adc4eb2e33f136bb1d894",
                 "shasum": ""
             },
             "require": {
@@ -50,20 +50,20 @@
                 "issues": "https://github.com/Denisok94/helper/issues",
                 "source": "https://github.com/Denisok94/"
             },
-            "time": "2022-06-23T17:12:07+00:00"
+            "time": "2024-12-16T16:53:44+00:00"
         },
         {
             "name": "denisok94/helper-composer",
-            "version": "0.0.4",
+            "version": "0.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Denisok94/helper-composer.git",
-                "reference": "9373acc85c1f78b2b10431c18c8b0d3e7ec6ef93"
+                "reference": "0a7ac36179ddcbc2ad3ed562ad6f9c84aa05ce7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Denisok94/helper-composer/zipball/9373acc85c1f78b2b10431c18c8b0d3e7ec6ef93",
-                "reference": "9373acc85c1f78b2b10431c18c8b0d3e7ec6ef93",
+                "url": "https://api.github.com/repos/Denisok94/helper-composer/zipball/0a7ac36179ddcbc2ad3ed562ad6f9c84aa05ce7a",
+                "reference": "0a7ac36179ddcbc2ad3ed562ad6f9c84aa05ce7a",
                 "shasum": ""
             },
             "require": {
@@ -86,25 +86,32 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "support": {
                 "issues": "https://github.com/Denisok94/helper-composer/issues",
-                "source": "https://github.com/Denisok94/helper-composer/tree/0.0.4"
+                "source": "https://github.com/Denisok94/helper-composer/tree/0.0.9"
             },
-            "time": "2022-06-12T16:45:35+00:00"
+            "time": "2025-05-11T13:30:25+00:00"
         },
         {
             "name": "lite-mvc/core",
             "version": "0.0.1",
             "source": {
                 "type": "git",
-                "url": "D:\\git\\my-mvc\\core",
-                "reference": "7358ff42c65fccb36528dcc0d0b5e3f0e9c2c1f4"
+                "url": "https://github.com/Denisok94/mvc-core.git",
+                "reference": "5adfa0d54c04c8ff47e979149119a698f7a57ce4"
             },
             "require": {
-                "denisok94/helper": "*",
-                "wa72/url": "^0.7.1"
+                "denisok94/helper": "0.8.6",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^8.3",
+                "wa72/url": "^0.7.0"
             },
-            "type": "project",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "LiteMvc\\Core\\": "src/"
@@ -115,10 +122,11 @@
             ],
             "authors": [
                 {
-                    "name": "denisok94"
+                    "name": "Denisok94",
+                    "email": "denisok94@inbox.ru"
                 }
             ],
-            "time": "2022-07-10T13:04:39+00:00"
+            "time": "2025-08-14T21:44:58+00:00"
         },
         {
             "name": "wa72/url",
@@ -173,10 +181,16 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform": {
+        "php": "^8.3",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
