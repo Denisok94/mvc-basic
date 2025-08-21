@@ -16,7 +16,7 @@
         {"type": "git", "url": "https://github.com/Denisok94/mvc-core.git"}
     ],
     "require": {
-        "php": "^8.3",
+        "php": "7.4 || ^8.0 <8.4",
         "lite-mvc/core": "*"
     },
     "config": {

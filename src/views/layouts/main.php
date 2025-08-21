@@ -3,7 +3,6 @@
 /** @var LiteMvc\Core\View $this */
 
 app\assets\AppAsset::register($this);
-app\assets\LightgalleryAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>

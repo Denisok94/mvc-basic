@@ -2,9 +2,9 @@
 
 namespace app\controllers;
 
-use LiteMvc\Core\Controller;
+use LiteMvc\Core\Controller\BaseController;
 
-class SiteController extends Controller
+class SiteController extends BaseController
 {
     public function actionIndex()
     {
