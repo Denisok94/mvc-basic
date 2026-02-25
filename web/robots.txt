@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /search/
+Disallow: *.php
+Disallow: *.js
+Disallow: *.html
+Sitemap: https://example.com/sitemap

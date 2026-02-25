@@ -1,0 +1,7 @@
+Contact: mailto:security@example.com
+Contact: https://example.com/security-report
+Encryption: openpgp4fpr:0123456789ABCDEF0123456789ABCDEF01234567
+Policy: https://example.com/security-policy
+Acknowledgments: https://example.com/hall-of-fame
+Preferred-Languages: ru, en
+Expires: 2026-12-31T23:59:59Z
