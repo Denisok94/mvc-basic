@@ -8,6 +8,7 @@ class SiteController extends BaseController
 {
     public function actionIndex()
     {
+        $this->view->title = 'Home';
         return $this->render('index');
     }
 }

@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-use LiteMvc\Core\Controller\ApiController as BaseApiController;
+use LiteMvc\Core\Controller\BaseApiController;
 
 class ApiController extends BaseApiController
 {
