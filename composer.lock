@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8674c87c6cbf6103baf43905ff6c559",
+    "content-hash": "ad3207e0d891482ad39f9d14c04bd8c8",
     "packages": [
         {
             "name": "denisok94/helper",
-            "version": "0.8.7",
+            "version": "0.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Denisok94/helper.git",
-                "reference": "2f6b859961df23c2b6714c965b339ba0f0d169a7"
+                "reference": "3a7a5b3d2c478c3ebe3bbe19bd0fbac12e452e69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Denisok94/helper/zipball/2f6b859961df23c2b6714c965b339ba0f0d169a7",
-                "reference": "2f6b859961df23c2b6714c965b339ba0f0d169a7",
+                "url": "https://api.github.com/repos/Denisok94/helper/zipball/3a7a5b3d2c478c3ebe3bbe19bd0fbac12e452e69",
+                "reference": "3a7a5b3d2c478c3ebe3bbe19bd0fbac12e452e69",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "issues": "https://github.com/Denisok94/helper/issues",
                 "source": "https://github.com/Denisok94/"
             },
-            "time": "2026-02-02T17:12:59+00:00"
+            "time": "2026-07-15T22:57:47+00:00"
         },
         {
             "name": "denisok94/helper-composer",
@@ -490,14 +490,14 @@
         },
         {
             "name": "lite-mvc/core",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Denisok94/mvc-core.git",
-                "reference": "34d4ae4a2a80130d06fcfb18db2c30ca802de1e6"
+                "reference": "d233a9e6a364cc76b195cf26dbcd86bc53c1ffad"
             },
             "require": {
-                "denisok94/helper": "^0.8.7",
+                "denisok94/helper": "^0.8",
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
@@ -522,7 +522,7 @@
                     "email": "denisok94@inbox.ru"
                 }
             ],
-            "time": "2026-07-06T19:41:51+00:00"
+            "time": "2026-07-16T12:20:38+00:00"
         },
         {
             "name": "phpoption/phpoption",

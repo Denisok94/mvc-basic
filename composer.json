@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": "7.4 || ^8.0 <8.4",
-        "lite-mvc/core": "^0.1.0",
-        "denisok94/helper": "^0.8.7"
+        "lite-mvc/core": "^0.1",
+        "denisok94/helper": "^0.8"
     },
     "config": {
         "allow-plugins": {
