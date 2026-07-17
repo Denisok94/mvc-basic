@@ -13,7 +13,7 @@ class CommandsController extends BaseConsoleController
 {
     public function execute(): void
     {
-        $params =  ['arguments' => $this->getArguments(), 'options' => $this->getOptions()];
+        $params = ['arguments' => $this->getArguments(), 'options' => $this->getOptions()];
         Mvc::$app->log->info('init CommandsController', $params);
         print_r($params);
     }
