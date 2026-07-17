@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adc750e1a053fb029267369f804bd4ab",
+    "content-hash": "ad3207e0d891482ad39f9d14c04bd8c8",
     "packages": [
         {
             "name": "denisok94/helper",
@@ -494,7 +494,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Denisok94/mvc-core.git",
-                "reference": "33330ea79945243d608ffda564900eef4d3a75ce"
+                "reference": "9e38814b678d564e94ff11149ab46f61706ded72"
             },
             "require": {
                 "denisok94/helper": "^0.8",
@@ -523,7 +523,7 @@
                     "email": "denisok94@inbox.ru"
                 }
             ],
-            "time": "2026-07-17T11:25:50+00:00"
+            "time": "2026-07-17T11:47:18+00:00"
         },
         {
             "name": "phpoption/phpoption",
