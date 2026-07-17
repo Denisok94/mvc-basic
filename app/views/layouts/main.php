@@ -1,14 +1,13 @@
 <?php
 
 /** @var LiteMvc\Core\View $this */
-use LiteMvc\Core\Mvc;
 
 app\assets\AppAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Mvc::$app->config->language ?>">
+<html lang="<?= $this->config->language ?>">
 
 <head>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
